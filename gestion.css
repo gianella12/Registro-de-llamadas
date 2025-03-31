@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(200, 222, 255);
+    font-family: "Inter", sans-serif;
+}
+
+.seccion-de-llamadas{
+    display: grid;
+    justify-content: center;
+}
+
+.seccion-ingreso-llamadas{
+    margin-bottom: 10px;
+     display: grid; 
+}
+.seccion-ingreso-llamadas button{
+    border: 2px solid #007bff;
+    width: 64px; /* Ancho de 150 píxeles */
+    height: 30px;
+    background-color: #6fb5ff;
+    padding: 1px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.seccion-ingreso-llamadas input {
+    width: 170px;  /* Ancho */
+    height: 6px;  /* Altura */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #007bff; /* Borde azul */
+    margin-bottom: 5px;
+    
+}
+thead {
+    background-color: #407594;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+}
+td{
+    padding: 5px;
+}
