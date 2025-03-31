@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Sist. de gestion de llamadas</title>
+    <link rel="stylesheet" href="gestion.css">
+</head>
+<body>
+    <section id="tarjetaDeLLamadas">
+        <h1>Sistema de getion de llamadas</h1>
+
+        <header>
+            <div class="seccion-ingreso-llamadas">
+                <label>Ingrese un numero de llamadas a generar.</label>
+                <input id="input" type="number">
+                <button type="button" onclick="generarLlamadas()">Generar</button>
+            </div>
+        </header>
+        <h2 id="NoHayLlamadas"></h2>
+        <table id="seccion-llamadas-generadas" border="1">
+            <thead>
+                <tr>
+                    <th>De</th>
+                    <th>A</th>
+                    <th>Duración</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Las filas de llamadas se agregarán aquí --> </tbody>
+        </table>
+    </section>
+    <script src="gestionDeLlamadas.js" defer></script>
+</body>
+</html>
